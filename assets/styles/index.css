@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-rows: 15% 1fr 10%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+/*encabezado*/
+header{
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.encabezado1{
+    grid-row: 1;
+    background-color: rgb(152, 220, 109);
+}
+
+.encabezado2{
+    background-color: rgb(205, 149, 79);
+    grid-row:2;
+}
+
+
+/*main*/
+main{
+    background-color: rgb(83, 138, 149);
+    grid-row: 2;
+}
+
+/*footer*/
+footer{
+    background-color: brown;
+    grid-row: 3;
+}
