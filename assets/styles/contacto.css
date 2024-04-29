@@ -1,5 +1,12 @@
 
 main{
-    background-color: #e2504c;
+    background-color: rgb(241, 235, 235);
 }
-
+footer{
+    background-color: #ca668b;
+    padding-top: 1%;
+}
+footer a{
+    color: antiquewhite;
+    
+}
