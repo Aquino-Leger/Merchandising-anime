@@ -1,148 +1,38 @@
-body{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-/*encabezado*/
-header{
-    grid-row: 1;
-}
-
-/*logo*/
-.logo{
+.primerApartado{
     display: flex;
+    margin-left: 17%;
+    margin-top: 5% ;
+    gap: 5%;
+    margin-bottom: 5%;
 }
 
-.logo img{
-width: 220px;
-height: 120px;
-margin-left: 5%;
-}
-
-.logo p{
-    width: 290px;
-    height: 20%;
-    font-size: 50px;
-    margin-top: 30px;
-
-}
-
-.encabezado1{
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-}
-
-
-/*botones encabezado*/
-.botones{
-    display: flex;
-    gap: 10px;
-    margin-left: 8%;
-    margin-top:10px;
-    flex-wrap: wrap;
-}
-
-.botones p{
-    border: 2px solid;
-    padding: 5px;
-    font-size: 25px;
-    background-color: rgb(243, 242, 240);
-}
-
-.botones p:hover{
-    background-color: rgb(251, 186, 150);
-    color: rgb(0, 2, 3);
-    border-color: rgb(251, 186, 150);
-    box-shadow: 2px 2px ;
-}
-
-/*main*/
-main{
-    background-color: rgb(249, 249, 249);
-    grid-row: 2;
-}
-/*carrusel*/
-
-.d-block-naza{
+.d-block{
     width: 100%;
-    height: 360px;
+    height: 400px;
 }
 
-/*productos*/
-
-
-.TITULO-PRODUCTO{
-    margin-left: 13%;
+.subtitulo{
+    margin-left: 17%;
     margin-top: 5%;
+    margin-bottom: -30px;
 }
 
-.productos{
-    justify-content: center;
-    display: flex;
-}
-
-.produc1{
-    border: 2px solid;
-    width: 300px;
-    padding: 1%;
-    height: 100%;
-    margin: 2%;
-    text-align: center;
-}
-
-.produc1 img{
-    width: 100%;
-}
-
-/*footer*/
 footer{
     background-color: #e8c39e;
-    grid-row: 3;
-}
-
-footer img{
-    height: 50px;
-}
-
-.foter-info{
     display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
 }
 
-@media (max-width:600px){
+.logos img{
+    height: 100px;
+}
 
-    .encabezado1{
-        flex-direction: column;
-    }
+.izquierda{
+    margin: 2%;
+}
 
-    .logo{
-        margin-left: -60px;
-    }
-
-    .logo p{
-        margin-left: 1px;
-        font-size: 35px;
-        margin-top: 40px;
-    }
-
-    .botones{
-        margin-left: 4%;
-        margin-top: -10px;
-        gap: 1%;
-        
-    }
-
-    .botones p{
-        font-size: 20px;
-    }
-
-    .buscador{
-        margin-left: 20px;
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-    
-
+.derecha{
+    margin-top: 11%;
 }
