@@ -12,9 +12,9 @@
 }
 
 .subtitulo{
-    margin-left: 17%;
+    margin-left: 41%;
     margin-top: 5%;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
 }
 
 footer{
@@ -25,16 +25,35 @@ footer{
     justify-content: space-between;
 }
 
+
 .logos img{
     height: 100px;
 }
 
 footer{
     background-color: #ca678e;
+    padding-top: 1%;
 }
 footer a{
     color: antiquewhite;
 }
+
 .nav-link{
+    border: 2px solids;
+}
+
+.pepino{
+    color: white;
     font-size: 20px;
+    text-decoration: none;
+    gap: 5%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+main{
+    background-color:rgb(241, 235, 235) ;
+    padding: 1%;
 }
