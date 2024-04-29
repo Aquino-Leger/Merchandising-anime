@@ -1,6 +1,7 @@
 body{
     display: grid;
     grid-template-rows: 15% 1fr 10%;
+
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -8,35 +9,48 @@ body{
 /*encabezado*/
 header{
     grid-row: 1;
-    display: grid;
-    grid-template-rows: 50% 50%;
+}
+
+/*logo*/
+.logo{
+    display: flex;
+}
+
+.logo img{
+width: 220px;
+height: 120px;
+margin-left: 5%;
+}
+
+.logo p{
+    width: 290px;
+    margin-left: 2%;
+    font-size: 50px;
+    margin-top: 5%;
 }
 
 .encabezado1{
-    grid-row: 1;
-    background-color: rgb(250, 241, 251);
-}
-
-.encabezado2{
-    background-color: rgb(240, 229, 215);
-    grid-row:2;
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
+
 
 /*buscador*/
 
 .buscador{
+    width: 400px;
+    height: 40px;
     display: flex;
-    margin-left: 38%;
-    margin-top:5px;
-    margin-bottom: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
     border: 1px solid rgb(125, 91, 67);
+    border-radius: 2px;
 }
 
 .rectangulo{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     width: 400px;
-    height: 100%
+    height: 100%;
 }
 
 .rectangulo p{
@@ -48,10 +62,6 @@ header{
     width: 50px;
     height: 100%;
     background-color: rgb(239, 229, 229);
-}
-
-.icono img:hover{
-    transition: 2px;
 }
 
 .icono img{
@@ -67,8 +77,8 @@ header{
 .botones{
     display: flex;
     gap: 3%;
-    margin-left: 5%;
-    margin-top: -8px;
+    margin-left: 11%;
+    margin-top: 26px;
 }
 
 .botones p{
@@ -99,6 +109,7 @@ main{
     padding: 0;
     margin: 0;
     width: 100%;
+    margin-top: 10px;
 }
 
 .TarjetasCarrusel img{
@@ -137,11 +148,11 @@ color: rgba(255, 255, 255, 0.933);
     }
 
     #TarjetasCarrusel-2{
-        background-color: rgb(122, 189, 201);
+        background-color: rgb(24, 33, 34);
     }
 
     #TarjetasCarrusel-3{
-        background-color: rgb(201, 122, 184);
+        background-color: rgb(212, 95, 44);
     }
 
     a{
@@ -192,4 +203,8 @@ color: rgba(255, 255, 255, 0.933);
 footer{
     background-color: brown;
     grid-row: 3;
+}
+
+.foter-info{
+    display: flex;
 }
