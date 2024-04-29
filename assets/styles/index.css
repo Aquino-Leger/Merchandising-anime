@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 15% 1fr 10%;
+    grid-template-rows: 1fr 1fr 1fr;
 
     height: 100vh;
     margin: 0;
@@ -24,67 +24,31 @@ margin-left: 5%;
 
 .logo p{
     width: 290px;
-    margin-left: 2%;
+    height: 20%;
     font-size: 50px;
-    margin-top: 5%;
+    margin-top: 30px;
+
 }
 
 .encabezado1{
     background-color: rgb(255, 255, 255);
-    display: flex;
-}
-
-
-/*buscador*/
-
-.buscador{
-    width: 400px;
-    height: 40px;
-    display: flex;
-    margin-left: 3%;
-    margin-top: 3%;
-    border: 1px solid rgb(125, 91, 67);
-    border-radius: 2px;
-}
-
-.rectangulo{
-    background-color: rgb(253, 253, 253);
-    width: 400px;
     height: 100%;
 }
-
-.rectangulo p{
-    margin-left: 5%;
-    margin-top: 3%;
-}
-
-.icono{
-    width: 50px;
-    height: 100%;
-    background-color: rgb(239, 229, 229);
-}
-
-.icono img{
-    width: 70%;
-    height: 70%;
-    margin-left: 18%;
-    margin-top: 13%;
-}
-
 
 
 /*botones encabezado*/
 .botones{
     display: flex;
-    gap: 3%;
-    margin-left: 11%;
-    margin-top: 26px;
+    gap: 10px;
+    margin-left: 8%;
+    margin-top:10px;
+    flex-wrap: wrap;
 }
 
 .botones p{
     border: 2px solid;
     padding: 5px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgb(243, 242, 240);
 }
 
@@ -95,8 +59,6 @@ margin-left: 5%;
     box-shadow: 2px 2px ;
 }
 
-
-
 /*main*/
 main{
     background-color: rgb(249, 249, 249);
@@ -104,86 +66,22 @@ main{
 }
 /*carrusel*/
 
-.carrusel-general{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.d-block-naza{
     width: 100%;
-    margin-top: 10px;
+    height: 360px;
 }
-
-.TarjetasCarrusel img{
-    width: 95%;
-    height: 100%;
-}
-
-.bi-arrow-left{
-font-size: 40px;
-color: rgba(255, 255, 255, 0.933);
-}
-
-.bi-arrow-right{
-    font-size: 40px;
-    color: rgba(255, 255, 255, 0.933);
-    margin-left: 80%;
-}
-
-#Container-carrusel{
-    height: 300px;
-    overflow: hidden;
-
-}
-
-.carrusel{
-    height: 100%;
-    position: relative;
-}
-    /*tarjetas/imagenes*/
-    .TarjetasCarrusel {
-        height: 100%;
-    }
-
-    #TarjetasCarrusel-1{
-        background-color: rgb(69, 69, 69);
-    }
-
-    #TarjetasCarrusel-2{
-        background-color: rgb(24, 33, 34);
-    }
-
-    #TarjetasCarrusel-3{
-        background-color: rgb(212, 95, 44);
-    }
-
-    a{
-        text-decoration: none;
-    }
-
-
-
-.flechasCarrusel{
-    height: 100%;
-    width: 90%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between ;
-    margin-left: 5%;
-}
-
 
 /*productos*/
 
 
 .TITULO-PRODUCTO{
     margin-left: 13%;
+    margin-top: 5%;
 }
 
 .productos{
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .produc1{
@@ -201,10 +99,50 @@ color: rgba(255, 255, 255, 0.933);
 
 /*footer*/
 footer{
-    background-color: brown;
+    background-color: #e8c39e;
     grid-row: 3;
+}
+
+footer img{
+    height: 50px;
 }
 
 .foter-info{
     display: flex;
+}
+
+@media (max-width:600px){
+
+    .encabezado1{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-left: -60px;
+    }
+
+    .logo p{
+        margin-left: 1px;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .botones{
+        margin-left: 4%;
+        margin-top: -10px;
+        gap: 1%;
+        
+    }
+
+    .botones p{
+        font-size: 20px;
+    }
+
+    .buscador{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+
 }
