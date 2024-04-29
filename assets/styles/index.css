@@ -25,8 +25,103 @@ header{
 
 /*main*/
 main{
-    background-color: rgb(83, 138, 149);
+    background-color: rgb(249, 249, 249);
     grid-row: 2;
+}
+/*carrusel*/
+
+.carrusel-general{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.TarjetasCarrusel img{
+    width: 95%;
+    height: 100%;
+}
+
+.bi-arrow-left{
+font-size: 40px;
+color: rgba(255, 255, 255, 0.933);
+}
+
+.bi-arrow-right{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.933);
+    margin-left: 80%;
+}
+
+#Container-carrusel{
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.carrusel{
+    height: 100%;
+    position: relative;
+}
+    /*tarjetas/imagenes*/
+    .TarjetasCarrusel {
+        height: 100%;
+    }
+
+    #TarjetasCarrusel-1{
+        background-color: rgb(69, 69, 69);
+    }
+
+    #TarjetasCarrusel-2{
+        background-color: rgb(122, 189, 201);
+    }
+
+    #TarjetasCarrusel-3{
+        background-color: rgb(201, 122, 184);
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+
+.flechasCarrusel{
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin-left: 5%;
+}
+
+
+/*productos*/
+
+
+.TITULO-PRODUCTO{
+    margin-left: 13%;
+}
+
+.productos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produc1{
+    border: 2px solid;
+    width: 300px;
+    padding: 1%;
+    height: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+.produc1 img{
+    width: 100%;
 }
 
 /*footer*/
