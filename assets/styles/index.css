@@ -29,10 +29,12 @@ footer{
     height: 100px;
 }
 
-.izquierda{
-    margin: 2%;
+footer{
+    background-color: #ca678e;
 }
-
-.derecha{
-    margin-top: 11%;
+footer a{
+    color: antiquewhite;
+}
+.nav-link{
+    font-size: 20px;
 }
