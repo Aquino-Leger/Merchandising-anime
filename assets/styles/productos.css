@@ -8,5 +8,15 @@
     text-align: center;
 }
 main {
-    background-color: #e2504c;
+    background-color:rgb(241, 235, 235) ;
+    padding-bottom: 1%;
+}
+footer{
+    background-color: #ca678e;
+}
+footer a{
+    color: antiquewhite;
+}
+.nav-link{
+    font-size: 20px;
 }
